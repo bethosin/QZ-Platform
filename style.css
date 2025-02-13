@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 1rem;
+    align-items: center;
+    width: 80%;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+      list-style: none;
+  
+      
+}
+
+nav li{
+    font-family: fustat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    
+}
+
+
+
+.login button{
+font-family: fustat;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+background-color: #F3B855;
+border-radius: 50px;
+padding: 0.2rem 2rem;
+border: none;
+cursor: pointer;
+}
+
+.login :hover{
+    background-color: #F3B855;
+    color: #E6E6E9;
+}
+
+.hero{
+    background-image: url(images/Ellipse\ 9.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+  
+}
+
+.dot {
+ margin: auto;
+ width: 10%;
+ margin-bottom: 2rem;
+
+}
+
+
+
+.textside h1{
+font-family: Fustat;
+font-size: 60px;
+font-weight: 800;
+line-height: 85.2px;
+color: #104573;
+width: 95%;
+margin-bottom: 1rem;
+}
+
+.textside p{
+font-family: Fustat;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.08px;
+width: 80%;
+}
+
+
+.txtbtn button{
+box-shadow: 0 8px 16px 0 #0000001F ;
+font-family: Fustat;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.08px;
+padding: 0.5rem 2rem;
+border-radius: 50px;
+background-color: #F3B855;
+border: black 1px solid;
+margin-top: 3rem;
+cursor: pointer;
+}
+
+.txtbtn :hover{
+    background-color: #F3B855;
+    color: #E6E6E9;
+}
+
+
+.textside{
+    width: 50%;
+}
+
+
+
+
+.section1{
+    background-color:#104573E5 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.text1 .one{
+display: flex;
+}
+
+.textwrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin: auto;
+    width: 50%;
+    flex-direction: row; 
+    margin-top: 2rem;
+}
+.text1 h3{
+font-family: Fustat;
+font-size: 32px;
+font-weight: 600;
+line-height: 45.44px;
+color: white;
+
+}
+.text1 p{
+font-family: Fustat;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.4px;
+color: white;
+}
+  
+  .text1 {
+    border-left: 1px solid #F3B85599; 
+    padding-left: 10px; 
+    margin-bottom: 20px; 
+  }
+  
+ 
+
+.section3 .heading3{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.heading3 h4{
+font-family: Fustat;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.08px;
+color: #F3B855;
+margin-bottom: 1rem;
+}
+
+.heading3 h2{
+font-family: Fustat;
+font-size: 40px;
+font-weight: 700;
+line-height: 56.8px;
+ margin: auto;
+ width: 40%;
+
+}
+
+.section3{
+   background-color: #FAF7ED99;
+   background-size: cover;
+
+}
+
+.sec3cont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap:5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 67%;
+    
+}
+
+.textadmin{
+border-radius:20px;
+background-color: white;
+background-size: cover;
+padding:3rem 1rem;
+margin-top: 4rem;
+width: 60%;
+}
+
+.textadmin img{ 
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: -3rem;
+
+}
+
+.textadmin h4{
+font-family: Fustat;
+font-size: 18px;
+font-weight: 700;
+line-height: 34.08px;
+}
+
+.textadmin p{
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.72px;
+    width: 90%;  
+}
+
+.gradp p{
+    width: 90%;
+}
+
+
+.section4{
+    background-color: #104573;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+    .heading4{
+        text-align: center;
+    }
+
+    .heading4 h2{
+        font-family: Fustat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56.8px;
+        color: white;
+        padding-top: 2rem;
+        margin: auto;
+        width: 40%;
+        }
+
+        .sec5{
+            text-align: center;
+            padding-top: 2rem;
+        }
+
+        .head5 h4{
+      font-family: Fustat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.08px;
+      color: #F3B855;
+       }
+
+       .head5 h2{
+     font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;
+    }
+
+    .sec5img{
+        padding-top: 3rem;
+    }
+
+    .sec5body h4{
+        font-family: Fustat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.08px;
+          
+    }
+
+    .sec5body p{
+        font-family: Fustat;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 22.72px;
+        color: #231F20CC;
+    
+    }
+
+    .sec5body{
+        padding: 3rem 0;
+    }
+
+    .sec5last{
+        text-align: center;
+        padding-top: 3rem;
+        border:1px solid #E6E6E9;
+        background-color: white;
+    }
+
+    .sec5last h2{
+        font-family: Fustat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56.8px; 
+        margin: auto; 
+        
+    }
+
+    .sec5last h4{
+        font-family: Fustat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.08px;
+        color: #F3B855; 
+        margin: auto;
+        width: 48%;
+    }
+     .comment sup{
+        position: absolute;
+        margin-left: -18rem;
+        margin-top: -1.5rem;
+     }
+     .comment sub{
+        position: absolute;
+        margin-left: 14rem;
+        margin-top: -2.5rem; 
+     }
+
+    .sec5btn button{
+        font-family: fustat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        padding: 0.8rem 2rem;
+        border-radius: 50px;
+        background-color: #231F20CC transparent;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+
+    .sec5btn :hover{
+        background-color: #F3B855;
+        color: white;
+    }
+
+    .comment{
+        font-family: Fustat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.08px;
+        color: #231F20CC;
+        padding-bottom: 3rem;
+        margin: auto;
+        width: 33%;
+    }
+
+
+    footer{
+        background-color: #104573;
+        
+    }
+    .footlink{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        justify-content: space-between;
+        padding-top: 3rem;
+        color: white;
+    }
+
+    .footright{
+   display: flex;
+   gap: 5rem;
+   align-self: center;
+
+    }
+
+    .footleft{
+        margin-top: 2rem;
+    }
+
+
+    .company h3{
+        font-family: Fustat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 45.44px;
+        color: #F3B855;
+    }
+
+    .company p{
+        font-family: Fustat;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 45.44px;  
+    }
+ 
+    .icon{
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        padding-left: 15rem;
+    }
+
+    .icon img{
+        margin: auto;
+        width: 2%;
+        margin:0 1rem;
+    }
+
+
+    @media(max-width:1024px){
+       header{
+        width: 85%;
+       } 
+
+       .hero{
+        padding-top: 2rem;
+       }
+
+       .imgside img{
+        width: 100%;
+       }
+
+       .textside{
+        width: 80%;
+       }
+
+       .textside h1{
+        font-size: 55px;
+        width: 98%;
+        }
+        
+        .textside p{
+        width: 90%;
+        }
+
+        .textwrap{
+            width: 70%;
+        }
+        .heading3 h2{
+       width: 50%;
+       
+    }
+
+    .sec3cont{
+        width: 88%;
+        gap: 3rem;
+    }
+
+    .heading4 h2{
+        width: 50%;
+        }
+
+    .comment{
+        width: 35%;
+        font-size: 20px;
+    }
+
+    .comment sub{
+        margin-left: 12rem;
+     }
+
+     .sec5last h2{
+        font-size: 38px;
+    }
+
+    .sec5last h4{
+        width: 70%;
+    }
+
+    .footlink{
+        width: 88%; 
+    }
+
+    .footright{
+        gap: 5rem;
+     
+         }
+     
+         .footleft{
+             margin-top: 2rem;
+         }
+     
+     
+         .company h3{
+             font-size: 30px; 
+         }
+     
+         .company p{
+             font-size: 28px;
+         }
+      
+         .icon{
+             padding-left: 9rem;
+         }
+     
+         .icon img{
+             width: 3%;
+         }
+}
+
+@media(max-width:768px){
+    header{
+        width: 90%;
+    }
+    
+    nav{
+        gap: 2rem;   
+    }
+    
+    nav li{
+        font-size: 14px;
+    }
+    
+    .login button{
+    font-size: 14px;
+    padding: 0.1rem 1rem;
+    }
+
+    .hero{
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .imgside img{
+        width: 90%;
+    }
+
+    .textside{
+        width: 70%;
+    }
+
+    .textside h1{
+        font-size: 36px;
+        width: 98%;
+        line-height: 50.2px;
+        }
+        
+        .textside p{
+        font-size: 16px;
+        width: 98%;
+        }
+        
+        
+        .txtbtn button{
+        font-size: 20px;
+        padding: 0.2rem 1rem;
+        margin-top: 2rem;
+        }
+        
+        .textwrap{
+            width: 70%;
+        }
+
+        .text1 h3{
+        font-size: 24px;
+
+        }
+        .text1 p{
+        font-size: 16px;
+        }
+
+        .heading3 h2{
+            font-size: 30px;
+             width: 50%;
+            line-height: 49.8px;
+        }
+
+        .sec3cont{       
+            gap:3rem;
+            width: 90%; 
+        }
+
+        .textadmin{
+            width: 40%;
+        }
+
+        .textadmin h4{
+            font-size: 14px;
+            }
+            
+            .textadmin p{
+                font-size: 12px;
+                width: 98%;  
+            }
+            
+            .gradp p{
+                width: 98%;
+            }
+
+            .textadmin img{
+                width: 10%;
+            }
+
+            
+             .heading4 h2{
+                width: 50%;
+                font-size: 30px;
+                line-height: 49.8px;
+            }
+
+            .comment{
+                width: 48%;
+                font-size: 20px;
+            }
+        
+            .comment sub{
+                margin-left: 12rem;
+             }
+        
+             .sec5last h2{
+                font-size: 30px;
+            }
+        
+            .sec5last h4{
+                width: 88%;
+                font-size: 22px;
+            }
+
+            .sec5btn button{
+                padding: 0.5rem 1rem; 
+                font-size: 14px;
+            }
+
+            .footlink{
+                width: 88%; 
+            }
+        
+            .footright{
+             gap: 3rem;   
+            }
+             
+           .footleft{
+             margin-top: 2rem;
+          }
+             
+             
+          .company h3{
+                 font-size: 24px; 
+            }
+             
+         .company p{
+              font-size: 20px;
+            }
+              
+            .icon{
+               padding-left: 9rem;
+             }
+             
+            .icon img{
+               width: 3%;
+             }
+
+}
