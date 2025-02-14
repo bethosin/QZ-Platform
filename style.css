@@ -674,3 +674,42 @@ line-height: 34.08px;
              }
 
 }
+
+@media(max-width:425px){
+    nav{
+        display: none;
+       
+      
+          
+    }
+
+    .login button{
+        display: none;
+    }
+
+    .hero{
+    flex-direction: column-reverse;
+
+}
+
+.txtbtn button{
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.dot {
+    width: 15%;
+   }
+
+   .textside{
+    width: 100%;
+   }
+
+   .imgside img{
+    width: 100%;
+   }
+   
+}
+
+
+
