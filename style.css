@@ -56,6 +56,7 @@ cursor: pointer;
 .hero{
     background-image: url(images/Ellipse\ 9.png);
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -676,10 +677,9 @@ line-height: 34.08px;
 }
 
 @media(max-width:425px){
+
     nav{
         display: none;
-       
-      
           
     }
 
@@ -689,6 +689,10 @@ line-height: 34.08px;
 
     .hero{
     flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+    
+   
 
 }
 
@@ -699,15 +703,129 @@ line-height: 34.08px;
 
 .dot {
     width: 15%;
+    margin-top: 0.5rem;
    }
 
    .textside{
-    width: 100%;
+    width:85%;
    }
 
-   .imgside img{
-    width: 100%;
+   .imgside{
+    width: 95%;
    }
+
+   .textwrap{
+    width: 95%;
+}
+
+.text1 h3{
+    font-size: 20px;
+    
+    }
+    .text1 p{
+    font-size: 14px;
+   
+    }
+      
+      .text1 {
+        padding-left: 8px; 
+      }
+      
+
+.heading3 h2{
+   width: 95%;
+}
+
+.sec3cont{
+    gap:2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+.textadmin{
+margin-top: 2rem;
+width: 100%;
+}
+
+.textadmin img{ 
+    width: 20%;
+  
+  }
+
+  .heading4 h2{
+    font-size: 32px;
+    width: 95%;
+    }
+
+    .head5 h2{
+       font-size: 30px;
+       width: 90%;
+       margin: auto;
+       }
+
+       .comment sup{
+        position: absolute;
+        margin-left: -13rem;
+        margin-top: -1.5rem;
+     }
+     .comment sub{
+        position: absolute;
+        margin-left: 8rem;
+        margin-top: -2.5rem; 
+     }
+
+
+    .comment{
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .sec5last h4{
+        font-size: 16px;
+        width: 95%;
+    }
+
+    .footlink{
+        flex-direction: column;
+    }
+
+    .footleft{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .footright{
+        width: 100%;
+        display: block;
+
+        
+    }
+
+    .company h3{
+        font-size: 24px;
+    }
+
+    .company p{
+        font-size: 18px;  
+    }
+ 
+    .icon{
+        padding-left: 3rem;
+    }
+
+    .icon img{
+        width: 4%;
+    }
+
+
+  
+
+
+
+
    
 }
 
